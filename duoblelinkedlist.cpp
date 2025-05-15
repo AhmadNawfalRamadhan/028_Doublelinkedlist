@@ -166,4 +166,14 @@ void searchData()
 
     while (current != NULL && current -> noMhs !=rollNo)
         current = current -> next;
+
+    if (current == NULL)
+    {
+        cout << "Record not found\n";
+    }
+    else
+    {
+        cout << "Record found\n";
+        cout << "Roll Number: " << current->noMhs << endl;
+    }
 }
