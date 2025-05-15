@@ -118,6 +118,9 @@ void traverse()
     int i = 0;
     while (currentNode != NULL)
     {
-        
+        cout << i + 1 << ". " << currentNde->noMhs << " " << endl;
+
+        currentNode = currentNode->next;
+        i++;
     }
 }
