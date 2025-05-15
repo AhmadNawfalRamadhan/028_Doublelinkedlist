@@ -79,4 +79,24 @@ void hapus()
     cout << "\nEnter the roll number of the student whose record is to be deleted: ";
     int rollNo;
     cin >> rollNo;
+
+    Node *current = START;
+
+    while (current != NULL && current->noMhs != rollNo)
+        current = current->next;
+
+
+    if (current == START)
+    {
+        START = current->next;
+        if (START != NULL)
+            START->prev = NULL;
+    }
+    else
+    {
+        current->prev->next = current->next;
+
+        if (current->next != NULL)
+            current->next->prev = current->prev;
+    }
 }
