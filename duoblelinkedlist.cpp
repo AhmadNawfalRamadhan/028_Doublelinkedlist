@@ -39,7 +39,11 @@ void addNode()(
         newNode->next = START;
 
         if (START != NULL)
-        START->prev = newNode;
+            START->prev = newNode;
+
+        newNode->prev = NULL;
+
+        
     }
 )
 };
