@@ -20,7 +20,10 @@ public:
 
 void addNode()(
     int nim;
-    string nm;
+    string nama;
     cout <<"\nEnter the roll number of the student";
+    cin >> nim;
+
+    node *newNode = newNode();
 )
 }
