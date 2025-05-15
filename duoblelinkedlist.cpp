@@ -46,6 +46,12 @@ void addNode()(
         START = newNode;
         return;
     }
+
+    Node *current = START;
+    While (current->next !=NULL && current->next->nomMhs < nim)
+    {
+        current = current->next;
+    }
 )
 };
 //
