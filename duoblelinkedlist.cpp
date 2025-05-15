@@ -61,6 +61,9 @@ void addNode()(
 
     newNode->next = current->next;
     newNode->prev = current;
+
+    if (current->next !=NULL)
+        
 )
 };
 //
