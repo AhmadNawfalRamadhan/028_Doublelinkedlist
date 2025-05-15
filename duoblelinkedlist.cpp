@@ -225,6 +225,6 @@ int main()
         cout << endl;
         system("clear");
     
-    };
+    }While (Choice = '6');
     
 }
