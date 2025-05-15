@@ -32,7 +32,7 @@ void addNode()(
     {
         if(START !NULL && nim == START->noMhs)
         {
-            
+            cout << "\nDuplicate number not allowed" << endl;
         }
     }
 )
