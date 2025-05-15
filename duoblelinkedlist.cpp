@@ -58,6 +58,9 @@ void addNode()(
         cout << "\nDuplicate roll number not allowed" << endl;
         return;
     }
+
+    newNode->next = current->next;
+    newNode->prev = current;
 )
 };
 //
