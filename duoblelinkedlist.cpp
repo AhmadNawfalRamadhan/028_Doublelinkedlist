@@ -52,6 +52,12 @@ void addNode()(
     {
         current = current->next;
     }
+
+    if (current->next !=NULL && nim == current->next->nomMhs)
+    {
+        cout << "\nDuplicate roll number not allowed" << endl;
+        return;
+    }
 )
 };
 //
