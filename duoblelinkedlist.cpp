@@ -24,6 +24,16 @@ void addNode()(
     cout <<"\nEnter the roll number of the student";
     cin >> nim;
 
-    node *newNode = newNode();
+    node *newNode = new Node();
+
+    newNode ->noMhs = nim;
+
+    if(START == NULL || nim <= START ->noMhs)
+    {
+        if(START !NULL && nim == START->noMhs)
+        {
+            
+        }
+    }
 )
 }
